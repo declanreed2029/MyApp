@@ -86,225 +86,204 @@ function App() {
     },
     {
       id: 'lucidwake 2',
-      title: 'Lucid Wake',
-      subtitle: 'Device to detect when sleep paralysis episode is occuring and then wake user up',
-      role: 'Team Lead, Lead App Developer',
-      background: '/Space.JPG',
+      title: 'Air Force Research Lab Challenge Competition Problem 1',
+      subtitle: 'Design a training regime for an image-recognition program under severe data constraints',
+      role: '',
+      background: '/WhiteGreyGrid.jpg',
 
-      heroImg: '/LucidWake2.jpg',
-      imagePlacement: 'hero-right',
-      imageMode: 'morph',
+      
 
 
-      tech: ['Matlab', 'Bluetooth Interfacing', 'App Development', 'Research', 'Data Analysis', 'Public Speaking', 'Prototype Testing'],
+      tech: ['Python',"Command Line Interface", 'Machine Learning', 'Feature Engineering'],
 
       sections: [
         {
-          heading: 'Overview',
-          text: 'wasdasd'
-        },
-        {
-          heading: 'Our Approach',
-          text: 'ashk'
+          heading: 'My Approach',
+          text: '-I decided to use feature engineering to ensure the program would learn to associate specific aspects of each animal to said animal.',
+          text2: '-Said aspects were talons, beaks and wings for birds; height, 3 dimensionality and snouts for dogs; and length, fins and a dark background for fish. ',
+          text3: '-Then made the training data in 3 levels, first taking the base training data and removing the images with 0 or 1 aspects, second removing those with less than two and then finally picking the ones with the best defined aspects that also fit within the training data constraints. ',
+          text4: '-I then wrote code to change the amount of epochs and the batch size that the program trained under to optimize the new training set.',
         },
         {
           heading: 'Results',
-          text: 'asdasd'
-        }
+          text: 'The difference between the models was that later on I discovered that some of the training images I used were also being tested on in the model and I figured that would skew the results so I went back through the test images and removed the ones that the model had been trained on, this model is called Test1.',
+          img1: '/Projects/AFRL11.png',
+          img2: '/Projects/AFRL12.png'
+        },
       ],
 
       side: [
         {
-          title: 'Team',
-          text: 'John Doe, Jane Smith, Alice Johnson'
+          title: 'Overview',
+          text: 'All teams were tasked with modifying an existing image recognition program to work under severe training data constraints. Said program would need to be able to identify birds, dogs and fish.',
         },
         {
-          title: 'Timeline',
-          text: 'Jan 2022 - May 2022'
+          title: 'Team / Timeline / Mentor',
+          text: 'Solo',
+          text1: 'May 2024',
+          text2: 'Dr. Zac Schrecengost'
         },
         {
-          title: 'Quotes',
-          text: 'asdasd'
-        }
+          title: 'Links',
+          link: 'https://drive.google.com/file/d/1nVGfY6fOqZcCFTkJCM5HnWNRoia_Ppbl/view?usp=sharing',
+          linkName: 'Presentation',
+        },
+        
       ],
 
     },
     {
       id: 'lucidwake 3',
-      title: 'Lucid Wake',
-      subtitle: 'Device to detect when sleep paralysis episode is occuring and then wake user up',
-      role: 'Team Lead, Lead App Developer',
-      background: '/Space.JPG',
+      title: 'Rover Prototype',
+      subtitle: 'Research a planet and construct a rover prototype designed to explore it',
+      
+      background: '/WhiteGreyGrid.jpg',
 
-      heroImg: '/LucidWake2.jpg',
-      imagePlacement: 'hero-right',
-      imageMode: 'morph',
+      
 
 
-      tech: ['Matlab', 'Bluetooth Interfacing', 'App Development', 'Research', 'Data Analysis', 'Public Speaking', 'Prototype Testing'],
+      tech: ['Java', 'Sodering', 'Fusion360', '3D Printing', 'Sensor Interfacing', 'Rover Design', 'Solar Panel Integration as a power source'],
 
       sections: [
         {
-          heading: 'Overview',
-          text: 'wasdasd'
+          heading: 'Our Prototype',
+          text: "Designed to take samples from dead oceans, water sources and land samples. The rover head contains multiple holes for camera and spectrometers. On top of the rover rests a small cavern to carry a drone equipped to measure atmospheric data as well as take pictures. Also contains a side compartment for gas collection and storage and a front compartment for rock collection. It is hollow to allow for maximus rock storage and the prototype is powered by solar panels.",
+          img: "/Projects/Rover.jpg"
         },
-        {
-          heading: 'Our Approach',
-          text: 'ashk'
-        },
-        {
-          heading: 'Results',
-          text: 'asdasd'
-        }
       ],
 
       side: [
         {
+          title: 'Overview',
+          text: 'Tasked to conduct research on an exoplanet that could be capable of containing life and then designing a rover prototype that could explore said planet along with mock terrain of said planet. Our planet chosen was KEPLER-452b. We choose this planet because it has flowing rivers, lakes and pools; It used to have oceans; It has land masses; There is an atmosphere. '
+        },
+        {
           title: 'Team',
-          text: 'John Doe, Jane Smith, Alice Johnson'
+          text: 'Defne Atalay'
         },
         {
-          title: 'Timeline',
-          text: 'Jan 2022 - May 2022'
+          title: 'Links',
+          link: 'https://drive.google.com/file/d/1upaWM7McxRqOCFybFl6VHelMYeCulgjl/view?usp=sharing',
+          linkName: 'Presentation',
         },
-        {
-          title: 'Quotes',
-          text: 'asdasd'
-        }
+        
       ],
 
     },
     {
       id: 'lucidwake 4',
-      title: 'Lucid Wake',
-      subtitle: 'Device to detect when sleep paralysis episode is occuring and then wake user up',
-      role: 'Team Lead, Lead App Developer',
-      background: '/Space.JPG',
+      title: 'Air Force Research Lab Challenge Competition Problem 2',
+      subtitle: 'Find bugs within an image-recognition system and repair it',
+      role: '',
+      background: '/WhiteGreyGrid.jpg',
 
-      heroImg: '/LucidWake2.jpg',
-      imagePlacement: 'hero-right',
-      imageMode: 'morph',
+      
 
 
-      tech: ['Matlab', 'Bluetooth Interfacing', 'App Development', 'Research', 'Data Analysis', 'Public Speaking', 'Prototype Testing'],
+      tech: ['Python',"Command Line Interface", 'Hot Codes'],
 
       sections: [
         {
-          heading: 'Overview',
-          text: 'wasdasd'
-        },
-        {
-          heading: 'Our Approach',
-          text: 'ashk'
+          heading: 'My Approach',
+          text: '-Run tests with the image-recognition program.',
+          text2: '-Accessed and analyzed the training set.',
+          text3: '-Realized that the hot codes assigned to images were wrong.',
+          text4: '-Wrote code to change the hot codes based on the metadata of each image.',
         },
         {
           heading: 'Results',
-          text: 'asdasd'
-        }
+          img: '/Projects/AFRL21.png',
+        },
       ],
 
       side: [
         {
-          title: 'Team',
-          text: 'John Doe, Jane Smith, Alice Johnson'
+          title: 'Overview',
+          text: 'We were given a different image-recognition program that was not functioning properly and were tasked with finding out what was wrong and fixing it.',
         },
         {
-          title: 'Timeline',
-          text: 'Jan 2022 - May 2022'
+          title: 'Team / Timeline / Mentor',
+          text: 'Solo',
+          text1: 'May 2024',
+          text2: 'Dr. Zac Schrecengost'
         },
         {
-          title: 'Quotes',
-          text: 'asdasd'
-        }
+          title: 'Links',
+          link: 'https://drive.google.com/file/d/1qkSaqLWWA1V1zXwgLcRe573AYn7c1sY0/view?usp=sharing',
+          linkName: 'Presentation',
+        },
+        
       ],
 
     },
     {
       id: 'lucidwake 5',
-      title: 'Lucid Wake',
-      subtitle: 'Device to detect when sleep paralysis episode is occuring and then wake user up',
-      role: 'Team Lead, Lead App Developer',
-      background: '/Space.JPG',
+      title: 'This Website',
+      
+      background: '/WhiteGreyGrid.jpg',
 
-      heroImg: '/LucidWake2.jpg',
-      imagePlacement: 'hero-right',
-      imageMode: 'morph',
+      
 
 
-      tech: ['Matlab', 'Bluetooth Interfacing', 'App Development', 'Research', 'Data Analysis', 'Public Speaking', 'Prototype Testing'],
+      tech: ['CSS', 'HTML', 'Javascript', 'Vite', 'Solid', 'GSAP', 'MotionOne', 'Blender', 'Vercel'],
 
       sections: [
         {
-          heading: 'Overview',
-          text: 'wasdasd'
+          heading: 'The Website',
+          text: 'This website was coded in HTML, CSS and Javascript using the Vite + Solid Framework and GSAP and MotionOne. Javascript was used to make the animations seen on this website. This is the third iteration of the website. The first was a bare bones site containing the content only. The second was a hodgepodge of animation techniques and web development styles I had learned throughout my research and the third was an integration of those principles with my own style and desired modifications and enhancements. The creation of the website was primarily used as a hands-on learning tool for the skills mentioned in the skills section of this project. The website consists of 4,800 lines of code plus the default code of the Vite + Solid framework. The website was deployed using Vercel.'
         },
-        {
-          heading: 'Our Approach',
-          text: 'ashk'
-        },
-        {
-          heading: 'Results',
-          text: 'asdasd'
-        }
       ],
 
       side: [
         {
-          title: 'Team',
-          text: 'John Doe, Jane Smith, Alice Johnson'
+          title: 'Overview',
+          text: 'Designed to show off my resume in a larger context than a one page resume. Also to help me learn CSS and HTML and more about Javascript in a hands-on manner. It is the culmination of the things I learned in these languages.'
         },
-        {
-          title: 'Timeline',
-          text: 'Jan 2022 - May 2022'
-        },
-        {
-          title: 'Quotes',
-          text: 'asdasd'
-        }
       ],
 
     },
     {
       id: 'lucidwake 6',
-      title: 'Lucid Wake',
-      subtitle: 'Device to detect when sleep paralysis episode is occuring and then wake user up',
-      role: 'Team Lead, Lead App Developer',
-      background: '/Space.JPG',
+      title: 'Air Force Research Lab Challenge Competition Problem 3',
+      subtitle: 'Modify an image-recognition program to counter adversarial images',
+      role: '',
+      background: '/WhiteGreyGrid.jpg',
 
-      heroImg: '/LucidWake2.jpg',
-      imagePlacement: 'hero-right',
-      imageMode: 'morph',
+      
 
-      tech: ['Matlab', 'Bluetooth Interfacing', 'App Development', 'Research', 'Data Analysis', 'Public Speaking', 'Prototype Testing'],
+
+      tech: ['Python',"Command Line Interface", 'Machine Learning', 'Feature Engineering'],
 
       sections: [
         {
-          heading: 'Overview',
-          text: 'wasdasd'
-        },
-        {
-          heading: 'Our Approach',
-          text: 'ashk'
+          heading: 'My Approach',
+          text: '-I used noisy images and blockers in training to train the program.',
+          text2: '-I made 4 models: All noise levels included in training, 0.1 to 0.5 noise levels included in training, 0.6 - 1 noise levels included in training, All noise levels and blockers included in training.',
         },
         {
           heading: 'Results',
-          text: 'asdasd'
-        }
+          img1: '/Projects/AFRL31.png',
+          img2: '/Projects/AFRL32.png',
+        },
       ],
 
       side: [
         {
-          title: 'Team',
-          text: 'John Doe, Jane Smith, Alice Johnson'
+          title: 'Overview',
+          text: 'Modify an image-recognition program to counter adversarial images.',
         },
         {
-          title: 'Timeline',
-          text: 'Jan 2022 - May 2022'
+          title: 'Team / Timeline / Mentor',
+          text: 'Solo',
+          text1: 'May 2024',
+          text2: 'Dr. Zac Schrecengost'
         },
         {
-          title: 'Quotes',
-          text: 'asdasd'
-        }
+          title: 'Links',
+          link: 'https://drive.google.com/file/d/1gbYY3QHU0IfihkeEhiFbE890zzdFuAh6/view?usp=sharing',
+          linkName: 'Presentation',
+        },
+        
       ],
 
     },
@@ -359,10 +338,9 @@ function App() {
       
       background: '/WhiteGreyGrid.jpg',
 
-      heroImg: seniorpic,
+      heroImg: "/Education.jpg",
       imagePlacement: 'hero-right',
       imageMode: 'morph',
-
       
 
       sections: [
@@ -404,7 +382,7 @@ function App() {
       role: '',
       background: '/WhiteGreyGrid.jpg',
 
-      heroImg: headphoto,
+      heroImg: "/Projects/AboutMe.png",
       imagePlacement: 'hero-right',
       imageMode: 'morph',
 
@@ -437,6 +415,9 @@ function App() {
       role: '',
       background: '/WhiteGreyGrid.jpg',
 
+      heroImg: "/Experiences.jpg",
+      imagePlacement: 'hero-right',
+      imageMode: 'morph',
       
 
 
@@ -855,21 +836,21 @@ function App() {
         <nav>
           <ul class="sidebar">
             <li onClick={hideSidebar}><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#ffffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="#home">Projects</a></li>
-            <li><a href="#home">Overview</a></li>
-            <li><a href="#home">Skills</a></li>
-            <li><a href="#home">Contact</a></li>
-            <li><a href="#home">Images</a></li>
-            <li><a href="#home">Featured</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#featured">Featured</a></li>
           </ul>
           <ul>
             <li class="resumeButton" onClick={() => {window.open("https://drive.google.com/file/d/1fZTsPe_8OK5g4KjvjxS-tm5spLC8tskI/view?usp=sharing", "_blank", "noopener,noreferrer");}}><r>My Resume</r></li>
-            <li class="hideOnMobile"><a href="#home">Projects</a></li>
-            <li class="hideOnMobile"><a href="#home">Overview</a></li>
-            <li class="hideOnMobile"><a href="#home">Skills</a></li>
-            <li class="hideOnMobile"><a href="#home">Contact</a></li>
-            <li class="hideOnMobile"><a href="#home">Images</a></li>
-            <li class="hideOnMobile"><a href="#home">Featured</a></li>
+            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#overview">Overview</a></li>
+            <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li class="hideOnMobile"><a href="#images">Images</a></li>
+            <li class="hideOnMobile"><a href="#featured">Featured</a></li>
             
             <li onClick={showSidebar}><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
           </ul>
@@ -878,7 +859,7 @@ function App() {
 
         
 
-        <div class="rotatingimagecontainer">
+        <div id='projects' class="rotatingimagecontainer" >
           
           
           <div class="rotatingimagebanner">
@@ -890,27 +871,27 @@ function App() {
               </div>
               <div class="rotatingimageitem" style="--position: 2">
                 <div class="rotatingimagecard">
-                  <div class="cardexpansion1" onClick={() => OpenExpanded(1)}><img src="/Space.JPG" /></div>
+                  <div class="cardexpansion1" onClick={() => OpenExpanded(1)}><img src="/AFRL1.png" /></div>
                 </div>
               </div>
               <div class="rotatingimageitem" style="--position: 3">
                 <div class="rotatingimagecard">
-                  <div class="cardexpansion1" onClick={() => OpenExpanded(2)}><img src="/Space.JPG" /></div>
+                  <div class="cardexpansion1" onClick={() => OpenExpanded(2)}><img src="/Rover.png" /></div>
                 </div>
               </div>
               <div class="rotatingimageitem" style="--position: 4">
                 <div class="rotatingimagecard">
-                  <div class="cardexpansion1" onClick={() => OpenExpanded(3)}><img src="/Space.JPG" /></div>
+                  <div class="cardexpansion1" onClick={() => OpenExpanded(3)}><img src="/AFRL2.png" /></div>
                 </div>
               </div>
               <div class="rotatingimageitem" style="--position: 5">
                 <div class="rotatingimagecard">
-                  <div class="cardexpansion1" onClick={() => OpenExpanded(4)}><img src="/Space.JPG" /></div>
+                  <div class="cardexpansion1" onClick={() => OpenExpanded(4)}><img src="/Website.png" /></div>
                 </div>
               </div>
               <div class="rotatingimageitem" style="--position: 6">
                 <div class="rotatingimagecard">
-                  <div class="cardexpansion1" onClick={() => OpenExpanded(5)}><img src="/Space.JPG" /></div>
+                  <div class="cardexpansion1" onClick={() => OpenExpanded(5)}><img src="/AFRL3.png" /></div>
                 </div>
               </div>
               
@@ -933,7 +914,7 @@ function App() {
           </div>
         </div>
 
-        <div class="headerbox1">
+        <div class="headerbox1" id='overview'>
           <div class="coolButton1">
             <h1>Overview</h1>
           </div>
@@ -1006,7 +987,7 @@ function App() {
             </div>
         </div>
 
-        <div class='skillssection'> 
+        <div class='skillssection' id='skills'> 
           <div class="coolButton2">
             <h1>Skills</h1>
           </div>
@@ -1043,7 +1024,7 @@ function App() {
           </div>
         </div>
 
-        <div class='contactsection'>
+        <div class='contactsection' id='contact'>
           <h1 class='contactTitle'>Let's Talk!</h1>
           <h2 class='contactSubtitle'>Fill out to send a message to Declan!</h2>
           <form autocomplete='off' class='form' id='ContactForm' action="https://api.web3forms.com/submit" method='POST'>
@@ -1109,40 +1090,40 @@ function App() {
           
         </div>
 
-        <div class='imageSection1'>
+        <div class='imageSection1' id='images'>
           <button class='imageSection' onClick={() => OpenExpanded1()}>Images</button>
           <h2>Click for Images of Declan at Work!</h2>
         </div>
 
-        <div class='featuredSection'>
+        <div class='featuredSection' id='featured'>
           <h1>Featured In</h1>
           <div class='featured-container-wrapper'>
             <div class='featured-container'>
                 <div class='featured-item'>
-                  <img src='/Space.JPG' alt='Space News Logo'/>
+                  <img src='/Projects/F1.png' alt='Space News Logo'/>
                   <div class='featured-item-overlay'>
                     <h2>Central NY's Best and Brightest</h2>
-                    <p>Article on my work with Quanterion Soultins</p>
+                    <p>An article featuring those who have been awarded the Best and Brightest Award. Also features pictures of each winner and brief info about them.</p>
                     <div class='featured-wrapper'>  
                       <a href='https://www.syracuse.com/galleries/7FVZZ5KP35CGZHLQE7PITI6CRQ/' target='_blank' rel='noopener noreferrer'>Read More</a>
                     </div>
                   </div>
                 </div>
                 <div class='featured-item'>
-                  <img src='/Space.JPG' alt='Space News Logo'/>
+                  <img src='/Projects/F2.png' alt='Space News Logo'/>
                   <div class='featured-item-overlay'>
                     <h2>Congratulations to Declan Reed</h2>
-                    <p>Article on my work with Quanterion Soultins</p>
+                    <p>Congradulating me on winning the 2024 Air Force Research Lab Challenge Competition as a team of One.</p>
                     <div class='featured-wrapper'>  
                       <a href='https://www.facebook.com/cbasyracuse/posts/congratulations-to-junior-declan-reed-who-won-first-place-which-included-a-3000-/896198602310552/' target='_blank' rel='noopener noreferrer'>Read More</a>
                     </div>
                   </div>
                 </div>
                 <div class='featured-item'>
-                  <img src='/Space.JPG' alt='Space News Logo'/>
+                  <img src='/Projects/F3.png' alt='Space News Logo'/>
                   <div class='featured-item-overlay'>
                     <h2>Griffiss Institute: Meet Declan Reed</h2>
-                    <p>Article on my work with Quanterion Soultins</p>
+                    <p>An article intervewing me after winning the 2024 Air Force Research Lab Challenge Competition.</p>
                     <div class='featured-wrapper'>  
                       <a href='https://www.griffissinstitute.org/news/meet-declan-reed-winner-of-afrls-april-challenge-competition-and-orion-stem-alum/' target='_blank' rel='noopener noreferrer'>Read More</a>
                     </div>
@@ -1152,32 +1133,32 @@ function App() {
 
             <div class='featured-container'>
                 <div class='featured-item'>
-                  <img src='/Space.JPG' alt='Space News Logo'/>
+                  <img src='/Projects/F4.png' alt='Space News Logo'/>
                   <div class='featured-item-overlay'>
                     <h2>The Daily Sentinel</h2>
-                    <p>Article on my work with Quanterion Soultins</p>
+                    <p>An Article talking about the 2024 Air Force Research Lab Challenge Competetion which asked me for quotes as I had won.</p>
                     <div class='featured-wrapper'>  
                       <a href='https://www.romesentinel.com/entertainment-life/rome-air-force-research-lab-challenge-competition-awards-winners/article_0454d3b0-03f7-11ef-a82f-73bfb0e49c02.html' target='_blank' rel='noopener noreferrer'>Read More</a>
                     </div>
                   </div>
                 </div>
                 <div class='featured-item'>
-                  <img src='/Space.JPG' alt='Space News Logo'/>
+                  <img src='/Projects/F5.png' alt='Space News Logo'/>
                   <div class='featured-item-overlay'>
                     <h2>ORION: Meet Declan Reed</h2>
-                    <p>Article on my work with Quanterion Soultins</p>
+                    <p>An article intervewing me after winning the 2024 Air Force Research Lab Challenge Competition.</p>
                     <div class='featured-wrapper'>  
                       <a href='https://orionassured.com/meet-declan-reed-winner-of-afrls-april-challenge-competition-and-orion-stem-alum/' target='_blank' rel='noopener noreferrer'>Read More</a>
                     </div>
                   </div>
                 </div>
                 <div class='featured-item'>
-                  <img src='/Space.JPG' alt='Space News Logo'/>
+                  <img src='/Projects/F6.png' alt='Space News Logo'/>
                   <div class='featured-item-overlay'>
-                    <h2>Griffiss Institute: Meet Declan Reed</h2>
-                    <p>Article on my work with Quanterion Soultins</p>
+                    <h2>Congradulations Declan!!</h2>
+                    <p>Congradulating me on winning Central New York's Best and Brightest Award.</p>
                     <div class='featured-wrapper'>  
-                      <a href='https://www.griffissinstitute.org/news/meet-declan-reed-winner-of-afrls-april-challenge-competition-and-orion-stem-alum/' target='_blank' rel='noopener noreferrer'>Read More</a>
+                      <a href='https://www.facebook.com/photo/?fbid=1026312202632524&set=congrats-declan-reedhttpswwwsyracusecomentertainment202411meet-the-23-winners-of' target='_blank' rel='noopener noreferrer'>Read More</a>
                     </div>
                   </div>
                 </div>

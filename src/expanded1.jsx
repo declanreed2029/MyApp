@@ -11,7 +11,7 @@ export default function Expanded1(props) {
     let rafId;
 
 
-    const totalSlides = 20;
+    const totalSlides = 9;
     const endScale = 5;
     let slideWidth = window.innerWidth * 0.45;
     let viewportCenter = window.innerWidth / 2;
@@ -27,17 +27,6 @@ export default function Expanded1(props) {
         '7',
         '8',
         '9',
-        '10',
-        '11',
-        '12',
-        '13',
-        '14',
-        '15',
-        '16',
-        '17',
-        '18',
-        '19',
-        '20',
     ]
 
     let currentX = 0;
@@ -64,7 +53,7 @@ export default function Expanded1(props) {
 
                 const img = document.createElement('img');
                 const imageNumber = (i % totalSlides) + 1;
-                img.src = `/images/image${imageNumber}.JPG`
+                img.src = `/ImageSection/${imageNumber}.png`
                 slide.appendChild(img);
                 sliderRef.appendChild(slide);
 
@@ -126,7 +115,7 @@ export default function Expanded1(props) {
                 
                 const img = document.createElement('img');
                 const imageNumber = i + 1;
-                img.src = `/images/image${imageNumber}.JPG`;
+                img.src = `/ImageSection/${imageNumber}.png`;
                 thumbnail.appendChild(img);
                 gsap.set(thumbnail, {
                     x,

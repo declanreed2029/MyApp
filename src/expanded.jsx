@@ -60,6 +60,12 @@ export default function Expanded(props) {
                                                 <p>{sec.text5}</p>
                                                 <p>{sec.text6}</p>
                                                 <img src={sec.img} alt=''/>
+                                                <Show when={sec.img1}>
+                                                    <img class='image1' src={sec.img1} alt=''/>
+                                                </Show>
+                                                <Show when={sec.img2}>
+                                                    <img class='image2' src={sec.img2} alt=''/>
+                                                </Show>
                                             </div>
                                             {data().imagePlacement === 'between-sections' && (
                                                 data().imageAfterSection === i && (
