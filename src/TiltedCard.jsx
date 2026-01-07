@@ -1,6 +1,6 @@
-import {onMount, onCleanup} from 'solid-js';
-import { Motion } from 'solid-motionone';
-import { createSignal} from "solid-js";
+import { onMount, onCleanup } from "solid-js";
+import { Motion } from "solid-motionone";
+import { createSignal } from "solid-js";
 
 export default function TiltedCard(props) {
   let ref;
@@ -14,16 +14,16 @@ export default function TiltedCard(props) {
     const dx = e.clientX - rect.left - rect.width / 2;
     const dy = e.clientY - rect.top - rect.height / 2;
 
-    const rx = ((-dy / rect.height) * 20);
-    const ry = ((dx / rect.width) * 20);
+    const rx = (-dy / rect.height) * 20;
+    const ry = (dx / rect.width) * 20;
 
     setRotateX(rx);
     setRotateY(ry);
-    ref.style.setProperty('--tiltX', ry.toFixed(3));
-    ref.style.setProperty('--tiltY', rx.toFixed(3));
-    ref.style.setProperty('--mx', (dx / (rect.width / 2)).toFixed(3));
-    ref.style.setProperty('--my', (dy / (rect.height / 2)).toFixed(3));
-  } 
+    ref.style.setProperty("--tiltX", ry.toFixed(3));
+    ref.style.setProperty("--tiltY", rx.toFixed(3));
+    ref.style.setProperty("--mx", (dx / (rect.width / 2)).toFixed(3));
+    ref.style.setProperty("--my", (dy / (rect.height / 2)).toFixed(3));
+  }
 
   function onEnter() {
     setScale(1.1);
@@ -49,7 +49,7 @@ export default function TiltedCard(props) {
           zIndex: 2,
           transform: `perspective(1000px) rotateX(${rotateX()}deg) rotateY(${rotateY()}deg) scale(${scale()})`,
           transformStyle: "preserve-3d",
-          transition: "transform 0.2s ease-out"
+          transition: "transform 0.2s ease-out",
         }}
       >
         {props.children}
@@ -57,5 +57,3 @@ export default function TiltedCard(props) {
     </div>
   );
 }
-
-
