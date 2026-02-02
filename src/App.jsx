@@ -887,7 +887,7 @@ function App() {
               class="resumeButton"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/19o3ZlmFXqpmAye6wdyrRL9SV_mGN-bdu/view?usp=sharing",
+                  "https://drive.google.com/file/d/1htFd598CT3D8fBqxDrxNq4YT4TsT8g7w/view?usp=sharing",
                   "_blank",
                   "noopener,noreferrer",
                 );
